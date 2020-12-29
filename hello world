@@ -1,0 +1,35 @@
+<!Doctype html>
+<html lang=en>
+    <title>form</title>
+    <body>
+        <header>
+            <h1>please login to give an order</h1>
+        </header>
+        <form action=".index.html" method="POST">
+            <section>
+                <label for="username" style="content: darkblue;">username</label>
+                <input id="username" type="text" minlength="3" maxlength="12" style="color: blue;" required>
+            </section> <br>
+
+            <section>
+                <label for="password" style="color: rgb(139, 0, 0); ">password</label>
+                <input id="password" type="password"required pattern="a-zA-Z0-9" placeholder="sifreyi girin" title="sifreyi gir">
+            </section><br>
+
+            <section>
+                <label for="collection_time" style="color: darkred;">when do you want</label>
+                <input id="collection_time" type="number" name="collection_time" placeholder="ne zaman istedignizi girin min="15" max="50 step="5">
+            </section><br>
+
+
+            <section>
+                <button>submit</button>
+            </section>
+
+                    
+            
+        </form>
+
+
+    </body>
+</html>
